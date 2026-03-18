@@ -1,0 +1,13 @@
+icloud-autonomous/
+│
+├── package.json
+├── config.js
+├── index.js
+├── watcher.js
+├── processor.js
+├── uploader.js
+├── cleaner.js
+├── state.json
+└── utils/
+    ├── exec.js
+    └── file.js
