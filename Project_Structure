@@ -4,8 +4,8 @@ icloud-autonomous/
 ├── config.js
 ├── index.js
 ├── watcher.js
-├── processor.js
-├── uploader.js
+├── processor.js (Queue + batching)
+├── uploader.js (ExifTool + Rclon e)
 ├── cleaner.js
 ├── state.json
 └── utils/
