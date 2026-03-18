@@ -1,0 +1,8 @@
+{
+  "name": "icloud-autonomous",
+  "version": "2.0.0",
+  "type": "module",
+  "dependencies": {
+    "chokidar": "^3.5.3"
+  }
+}
