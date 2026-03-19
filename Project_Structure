@@ -2,7 +2,7 @@ iCloud (Account A)
    ↓ (API/Web access via Apple ID)
 Downloader (Node.js + iCloud API tool)
    ↓
-Local staging (or WD My Cloud)
+Local staging (local)
    ↓
 ExifTool (fix timestamps)
    ↓
