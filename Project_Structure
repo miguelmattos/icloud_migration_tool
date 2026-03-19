@@ -1,13 +1,11 @@
-icloud-autonomous/
-│
-├── package.json
-├── config.js
-├── index.js
-├── watcher.js
-├── processor.js (Queue + batching)
-├── uploader.js (ExifTool + Rclon e)
-├── cleaner.js
-├── state.json
-└── utils/
-    ├── exec.js
-    └── file.js
+iCloud (Account A)
+   ↓ (API/Web access via Apple ID)
+Downloader (Node.js + iCloud API tool)
+   ↓
+Local staging (or WD My Cloud)
+   ↓
+ExifTool (fix timestamps)
+   ↓
+Rclone (OAuth)
+   ↓
+Microsoft OneDrive
